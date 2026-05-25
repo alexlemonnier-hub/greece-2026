@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Greece 2026 — Athens & Kefalonia · Alex + Janine</title>
+<meta name="description" content="A one-week trip to Greece — Athens & Kefalonia, 29 May – 5 June 2026. Itinerary, stays, flights, food (allergy-vetted) and sights.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#13283d;
+    --ink-soft:#3a4d61;
+    --mute:#64768a;
+    --sea:#15638f;
+    --sea-deep:#0b3a58;
+    --sea-bright:#2f93c2;
+    --sky:#bfe2f0;
+    --sand:#f5eee2;
+    --paper:#fdfaf4;
+    --line:#e4d9c6;
+    --terra:#c95b39;
+    --terra-soft:#e8a585;
+    --gold:#c39a4d;
+    --olive:#6e7d4c;
+    --shadow:0 18px 50px -24px rgba(11,58,88,.45);
+    --shadow-sm:0 8px 24px -16px rgba(11,58,88,.5);
+    --r:18px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Manrope',-apple-system,sans-serif;
+    color:var(--ink);
+    background:
+      radial-gradient(1200px 600px at 80% -5%, #eaf4f7 0%, transparent 55%),
+      radial-gradient(900px 500px at -10% 20%, #fbeede 0%, transparent 50%),
+      var(--sand);
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  /* grain overlay */
+  body::before{
+    content:"";position:fixed;inset:0;z-index:9999;pointer-events:none;opacity:.04;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  a{color:inherit}
+  h1,h2,h3,h4{font-family:'Fraunces',Georgia,serif;font-weight:600;line-height:1.08;letter-spacing:-.01em}
+
+  /* ---------- meander divider ---------- */
+  .meander{height:22px;width:100%;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='22' viewBox='0 0 24 22'%3E%3Cpath d='M0 19V3h18v13H6V8h9' fill='none' stroke='%23c39a4d' stroke-width='2'/%3E%3C/svg%3E");
+    background-repeat:repeat-x;background-position:center;opacity:.5}
+
+  /* ---------- nav ---------- */
+  nav{position:sticky;top:0;z-index:100;
+    backdrop-filter:blur(12px);background:rgba(253,250,244,.82);
+    border-bottom:1px solid var(--line)}
+  .nav-in{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;
+    padding:.7rem 1.5rem;gap:1rem}
+  .brand{font-family:'Fraunces';font-weight:600;font-size:1.15rem;letter-spacing:.02em;display:flex;align-items:center;gap:.5rem}
+  .brand .dot{width:9px;height:9px;border-radius:50%;background:var(--terra);box-shadow:0 0 0 4px rgba(201,91,57,.16)}
+  .nav-links{display:flex;gap:.2rem;flex-wrap:wrap}
+  .nav-links a{font-size:.82rem;font-weight:600;text-decoration:none;color:var(--ink-soft);
+    padding:.4rem .7rem;border-radius:999px;transition:.2s;white-space:nowrap}
+  .nav-links a:hover{background:var(--sea);color:#fff}
+  @media(max-width:820px){.nav-links{display:none}}
+
+  /* ---------- hero ---------- */
+  header.hero{position:relative;overflow:hidden;
+    background:
+      radial-gradient(900px 500px at 75% 18%, rgba(47,147,194,.55) 0%, transparent 60%),
+      linear-gradient(160deg,#0b3a58 0%, #124b6e 45%, #15638f 100%);
+    color:#f6f1e6;padding:clamp(3.5rem,9vw,7rem) 1.5rem clamp(3rem,7vw,5.5rem)}
+  .hero::after{content:"";position:absolute;inset:0;opacity:.5;mix-blend-mode:soft-light;pointer-events:none;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+  .sun{position:absolute;top:8%;right:9%;width:140px;height:140px;border-radius:50%;
+    background:radial-gradient(circle at 50% 50%, #ffe7b3 0%, #f4b860 55%, rgba(244,184,96,0) 72%);
+    filter:blur(.5px);opacity:.9}
+  @media(max-width:680px){.sun{width:90px;height:90px;top:4%;right:6%}}
+  .hero-in{position:relative;z-index:2;max-width:1100px;margin:0 auto}
+  .kicker{font-size:.8rem;letter-spacing:.34em;text-transform:uppercase;color:var(--sky);font-weight:700;margin-bottom:1rem}
+  .hero h1{font-size:clamp(3rem,11vw,7rem);font-weight:600;color:#fff;letter-spacing:-.02em}
+  .hero h1 em{font-style:italic;color:var(--terra-soft);font-weight:500}
+  .hero .sub{font-size:clamp(1.05rem,2.4vw,1.45rem);margin-top:1.1rem;max-width:40ch;color:#dcebf2;font-family:'Fraunces';font-style:italic;font-weight:400}
+  .hero-meta{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:2rem}
+  .chip{display:inline-flex;align-items:center;gap:.45rem;padding:.5rem .95rem;border-radius:999px;
+    background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);font-size:.85rem;font-weight:600}
+  .chip b{color:#ffe7b3}
+
+  /* ---------- layout ---------- */
+  main{max-width:1100px;margin:0 auto;padding:0 1.5rem}
+  section{padding:clamp(3rem,6vw,5rem) 0;border-bottom:1px solid var(--line)}
+  section:last-of-type{border-bottom:none}
+  .sec-head{display:flex;align-items:baseline;gap:1rem;margin-bottom:2rem}
+  .sec-head .num{font-family:'Fraunces';font-style:italic;font-size:1.1rem;color:var(--terra);font-weight:500}
+  .sec-head h2{font-size:clamp(1.8rem,4.5vw,2.7rem);color:var(--ink)}
+  .sec-head .line{flex:1;height:1px;background:linear-gradient(90deg,var(--line),transparent);align-self:center}
+  .lead{font-size:1.08rem;color:var(--ink-soft);max-width:62ch;margin:-1rem 0 2rem}
+
+  /* reveal */
+  .reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+  .reveal.in{opacity:1;transform:none}
+
+  /* ---------- overview stats ---------- */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
+  @media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}}
+  .stat{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:1.3rem 1.2rem;box-shadow:var(--shadow-sm)}
+  .stat .big{font-family:'Fraunces';font-size:2rem;font-weight:600;color:var(--sea);line-height:1}
+  .stat .lbl{font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;color:var(--mute);margin-top:.5rem;font-weight:700}
+
+  /* ---------- cards ---------- */
+  .grid{display:grid;gap:1.2rem}
+  .g3{grid-template-columns:repeat(3,1fr)}
+  .g2{grid-template-columns:repeat(2,1fr)}
+  @media(max-width:860px){.g3{grid-template-columns:1fr}.g2{grid-template-columns:1fr}}
+  .card{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:1.5rem;box-shadow:var(--shadow-sm);
+    transition:transform .3s,box-shadow .3s}
+  .card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+  .card h3{font-size:1.35rem;margin-bottom:.2rem}
+  .card .tag{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--sea);background:rgba(21,99,143,.1);padding:.25rem .6rem;border-radius:999px;margin-bottom:.8rem}
+  .card .tag.warn{color:var(--terra);background:rgba(201,91,57,.12)}
+  .kv{display:flex;gap:.6rem;font-size:.92rem;padding:.35rem 0;border-top:1px dashed var(--line)}
+  .kv:first-of-type{border-top:none}
+  .kv .k{color:var(--mute);min-width:92px;font-weight:600}
+  .kv .v{color:var(--ink);font-weight:500}
+
+  /* ---------- flights ---------- */
+  .flight{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:1rem;
+    background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:1.3rem 1.6rem;box-shadow:var(--shadow-sm)}
+  .flight .ap{font-family:'Fraunces';font-size:1.9rem;font-weight:600}
+  .flight .ap small{display:block;font-family:'Manrope';font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);font-weight:700;margin-top:.2rem}
+  .flight .time{font-size:1.05rem;font-weight:700;color:var(--sea);margin-top:.3rem}
+  .flight .mid{text-align:center;color:var(--mute);font-size:.8rem}
+  .flight .mid .path{font-size:1.3rem;color:var(--sea-bright)}
+  .flight .r{text-align:right}
+  .flight .date{font-size:.78rem;text-transform:uppercase;letter-spacing:.1em;font-weight:700;color:var(--terra)}
+  @media(max-width:620px){.flight{grid-template-columns:1fr;text-align:center}.flight .r{text-align:center}}
+  .alert{display:flex;gap:.8rem;align-items:flex-start;background:rgba(201,91,57,.08);border:1px solid var(--terra-soft);
+    border-left:4px solid var(--terra);border-radius:12px;padding:1rem 1.2rem;margin-top:1.2rem;font-size:.95rem}
+  .alert b{color:var(--terra)}
+
+  /* ---------- days / timeline ---------- */
+  .day{position:relative;padding-left:2.2rem;padding-bottom:1.8rem;border-left:2px solid var(--line);margin-left:.4rem}
+  .day:last-child{border-left-color:transparent;padding-bottom:0}
+  .day::before{content:"";position:absolute;left:-9px;top:.2rem;width:16px;height:16px;border-radius:50%;
+    background:var(--paper);border:3px solid var(--terra)}
+  .day .dlabel{font-family:'Fraunces';font-style:italic;color:var(--terra);font-size:.95rem;font-weight:500}
+  .day h3{font-size:1.3rem;margin:.1rem 0 .5rem}
+  .day p{color:var(--ink-soft);font-size:.97rem;margin-bottom:.4rem}
+  .day .meta{font-size:.82rem;color:var(--mute);font-weight:600}
+  .pill{display:inline-block;font-size:.74rem;font-weight:700;padding:.15rem .55rem;border-radius:999px;
+    background:rgba(110,125,76,.14);color:var(--olive);margin-left:.4rem;letter-spacing:.03em;vertical-align:middle}
+  .pill.half{background:rgba(195,154,77,.16);color:#9a7726}
+
+  /* inline links */
+  a.lnk{color:var(--sea);text-decoration:none;font-weight:600;border-bottom:1.5px solid rgba(21,99,143,.28);transition:.2s;padding-bottom:1px}
+  a.lnk:hover{color:var(--terra);border-color:var(--terra)}
+  a.lnk::after{content:"↗";font-size:.7em;margin-left:.15em;opacity:.55;vertical-align:super}
+
+  /* ---------- food list ---------- */
+  .foodgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:.9rem}
+  @media(max-width:760px){.foodgrid{grid-template-columns:1fr}}
+  .eat{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:1.1rem 1.2rem;
+    display:flex;flex-direction:column;gap:.3rem;transition:.25s}
+  .eat:hover{border-color:var(--sea-bright);box-shadow:var(--shadow-sm)}
+  .eat .top{display:flex;justify-content:space-between;align-items:baseline;gap:.6rem}
+  .eat .name{font-family:'Fraunces';font-size:1.18rem;font-weight:600}
+  .eat .where{font-size:.76rem;color:var(--mute);font-weight:700;text-transform:uppercase;letter-spacing:.06em;white-space:nowrap}
+  .eat .why{font-size:.9rem;color:var(--ink-soft)}
+  .eat .note{font-size:.82rem;color:var(--terra);font-weight:600}
+  .subhead{font-family:'Fraunces';font-style:italic;font-size:1.25rem;color:var(--sea-deep);margin:1.6rem 0 .9rem;display:flex;align-items:center;gap:.6rem}
+  .subhead::before{content:"";width:26px;height:2px;background:var(--terra)}
+
+  /* ---------- allergy card ---------- */
+  .allergy{background:linear-gradient(160deg,#fff 0%,#fdf6ec 100%);border:2px solid var(--terra);border-radius:var(--r);
+    padding:1.8rem;box-shadow:var(--shadow);position:relative;overflow:hidden}
+  .allergy::before{content:"⚠";position:absolute;top:-10px;right:6px;font-size:7rem;opacity:.06}
+  .allergy h3{color:var(--terra);font-size:1.4rem;margin-bottom:.8rem}
+  .allergy .gr{font-size:1.02rem;line-height:1.7;color:var(--ink);background:#fff;border:1px dashed var(--terra-soft);
+    border-radius:12px;padding:1.1rem 1.3rem;margin-bottom:1rem}
+  .allergy .gr b{color:var(--terra)}
+  .allergy .en{font-size:.92rem;color:var(--ink-soft)}
+
+  /* ---------- budget ---------- */
+  .budget-wrap{display:grid;grid-template-columns:1.3fr 1fr;gap:1.2rem}
+  @media(max-width:760px){.budget-wrap{grid-template-columns:1fr}}
+  table{width:100%;border-collapse:collapse;background:var(--paper);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow-sm)}
+  th,td{text-align:left;padding:.75rem 1rem;font-size:.92rem;border-bottom:1px solid var(--line)}
+  th{background:var(--sea-deep);color:#fff;font-family:'Manrope';font-weight:700;font-size:.78rem;text-transform:uppercase;letter-spacing:.08em}
+  td:last-child,th:last-child{text-align:right}
+  tr:last-child td{border-bottom:none}
+  tr.total td{font-weight:700;color:var(--sea);background:rgba(21,99,143,.06)}
+  .bignote{background:var(--sea-deep);color:#eaf4f7;border-radius:var(--r);padding:1.5rem;box-shadow:var(--shadow)}
+  .bignote .amt{font-family:'Fraunces';font-size:2.4rem;color:#ffe7b3;line-height:1}
+  .bignote p{font-size:.9rem;margin-top:.6rem;color:#cfe2ec}
+
+  /* ---------- checklist ---------- */
+  .checks{display:grid;grid-template-columns:repeat(2,1fr);gap:.7rem}
+  @media(max-width:680px){.checks{grid-template-columns:1fr}}
+  .chk{display:flex;gap:.7rem;align-items:flex-start;background:var(--paper);border:1px solid var(--line);
+    border-radius:12px;padding:.9rem 1.1rem;font-size:.95rem}
+  .chk .box{flex:none;width:20px;height:20px;border-radius:6px;border:2px solid var(--sea);margin-top:.15rem;position:relative}
+  .chk.done .box{background:var(--sea)}
+  .chk.done .box::after{content:"✓";position:absolute;inset:0;color:#fff;font-size:.8rem;display:flex;align-items:center;justify-content:center;font-weight:800}
+  .chk b{color:var(--ink)}
+
+  /* ---------- footer ---------- */
+  footer{background:linear-gradient(160deg,#0b3a58,#13283d);color:#cfe2ec;text-align:center;padding:3rem 1.5rem 2.4rem}
+  footer .fb{font-family:'Fraunces';font-size:1.6rem;color:#fff;margin-bottom:.4rem}
+  footer .meander{opacity:.4;margin-bottom:1.5rem}
+  footer small{display:block;opacity:.6;margin-top:1rem;font-size:.78rem}
+
+  @media print{
+    nav,.sun{display:none}
+    body{background:#fff}
+    .card,.eat,.flight,.stat,table{box-shadow:none;break-inside:avoid}
+    .reveal{opacity:1!important;transform:none!important}
+    a.lnk::after{content:""}
+    section{border-color:#ccc}
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-in">
+    <div class="brand"><span class="dot"></span>Greece&nbsp;·&nbsp;2026</div>
+    <div class="nav-links">
+      <a href="#overview">Overview</a>
+      <a href="#flights">Flights</a>
+      <a href="#stays">Stays</a>
+      <a href="#athens">Athens</a>
+      <a href="#kefalonia">Kefalonia</a>
+      <a href="#eat">Eat</a>
+      <a href="#see">See &amp; Do</a>
+      <a href="#allergy">Allergy</a>
+      <a href="#budget">Budget</a>
+      <a href="#prep">Prep</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="sun"></div>
+  <div class="hero-in">
+    <div class="kicker reveal">29 May — 5 June 2026 · 7 nights</div>
+    <h1 class="reveal">Athens <em>&amp;</em><br>Kefalonia</h1>
+    <p class="sub reveal">A city of ancient stone, then the blue-green calm of the Ionian. Relaxed, sun-warmed, and planned to the last taverna.</p>
+    <div class="hero-meta">
+      <span class="chip reveal">✈ <b>Alex + Janine</b></span>
+      <span class="chip reveal">🏛 Athens <b>3 nts</b></span>
+      <span class="chip reveal">🏝 Kefalonia <b>4 nts</b></span>
+      <span class="chip reveal">🚗 Hertz on the island</span>
+    </div>
+  </div>
+</header>
+<div class="meander"></div>
+
+<main>
+
+  <!-- OVERVIEW -->
+  <section id="overview">
+    <div class="sec-head reveal"><span class="num">01</span><h2>At a glance</h2><span class="line"></span></div>
+    <div class="stats">
+      <div class="stat reveal"><div class="big">7</div><div class="lbl">Nights total</div></div>
+      <div class="stat reveal"><div class="big">3 + 4</div><div class="lbl">Athens · Kefalonia</div></div>
+      <div class="stat reveal"><div class="big">2</div><div class="lbl">Travellers</div></div>
+      <div class="stat reveal"><div class="big">~24°</div><div class="lbl">Shoulder-season warmth</div></div>
+    </div>
+    <p class="lead reveal" style="margin-top:2rem">From Switzerland: a Friday flight to Athens for the Acropolis and the old city, then Monday across to <b>Pesada</b> in southern Kefalonia for beaches, caves and harbour villages by car. Relaxed pace throughout — knee-sensible, with lifts and flat options chosen where it counts.</p>
+  </section>
+
+  <!-- FLIGHTS -->
+  <section id="flights">
+    <div class="sec-head reveal"><span class="num">02</span><h2>Flights</h2><span class="line"></span></div>
+    <div class="grid" style="gap:1rem">
+      <div class="flight reveal">
+        <div><div class="ap">ZRH<small>Zürich</small></div><div class="time">12:05</div></div>
+        <div class="mid"><div class="date">Fri 29 May</div><div class="path">✈</div><div>2h 40m · LX1838</div></div>
+        <div class="r"><div class="ap">ATH<small>Athens</small></div><div class="time">15:45</div></div>
+      </div>
+      <div class="flight reveal">
+        <div><div class="ap">ATH<small>Athens</small></div><div class="time">13:25</div></div>
+        <div class="mid"><div class="date">Mon 1 June</div><div class="path">✈</div><div>~1h · airline TBC</div></div>
+        <div class="r"><div class="ap">EFL<small>Kefalonia</small></div><div class="time">14:25</div></div>
+      </div>
+      <div class="flight reveal">
+        <div><div class="ap">EFL<small>Kefalonia</small></div><div class="time">10:35</div></div>
+        <div class="mid"><div class="date">Fri 5 June</div><div class="path">✈ — ✈</div><div>4h 45m · via Vienna</div></div>
+        <div class="r"><div class="ap">ZRH<small>Zürich</small></div><div class="time">14:20</div></div>
+      </div>
+    </div>
+    <div class="alert reveal">
+      <span>⚠️</span>
+      <div><b>Car-pickup pinch:</b> the Kefalonia flight lands <b>14:25</b>, the Hertz car is booked for <b>14:30</b>. Workable (EFL is tiny), but <b>give Hertz the ATH→KEF flight number</b> so they hold the car against the arrival. Bookings: ZRH→ATH <b>saved in app</b> · EFL→ZRH <b>saved in app</b>.</div>
+    </div>
+  </section>
+
+  <!-- STAYS -->
+  <section id="stays">
+    <div class="sec-head reveal"><span class="num">03</span><h2>Where we stay &amp; the car</h2><span class="line"></span></div>
+    <div class="grid g3">
+      <div class="card reveal">
+        <span class="tag">Athens · 3 nts</span>
+        <h3>The Residence Aiolou Hotel &amp; Spa</h3>
+        <p style="font-size:.9rem;color:var(--ink-soft);margin:.3rem 0 .8rem">Karori 14, 10551 — central, off Aiolou St by Monastiraki &amp; the Roman Agora. <a class="lnk" href="https://www.google.com/maps/search/?api=1&query=The+Residence+Aiolou+Hotel+Spa+Athens" target="_blank" rel="noopener">Map</a></p>
+        <div class="kv"><span class="k">Dates</span><span class="v">Fri 29 May (15:00) → Mon 1 June (11:00)</span></div>
+        <div class="kv"><span class="k">Room</span><span class="v">Economy · queen · A/C · lift · breakfast incl.</span></div>
+        <div class="kv"><span class="k">Conf.</span><span class="v">In your Booking.com app</span></div>
+        <div class="kv"><span class="k">Price</span><span class="v">€680.85 — paid, non-refundable</span></div>
+        <div class="kv"><span class="k">Note</span><span class="v">No parking (not needed) · free WiFi · +30 21 6900 3569</span></div>
+      </div>
+      <div class="card reveal">
+        <span class="tag">Kefalonia · 4 nts</span>
+        <h3>Airbnb — Pesada</h3>
+        <p style="font-size:.9rem;color:var(--ink-soft);margin:.3rem 0 .8rem">South Kefalonia, near the airport &amp; Argostoli. <a class="lnk" href="https://www.airbnb.com/rooms/43407876" target="_blank" rel="noopener">View listing</a> · <a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Pesada+Kefalonia" target="_blank" rel="noopener">Map</a></p>
+        <div class="kv"><span class="k">Dates</span><span class="v">Mon 1 June → Fri 5 June</span></div>
+        <div class="kv"><span class="k">Argostoli</span><span class="v">~15–20 min · Airport ~15 min</span></div>
+        <div class="kv"><span class="k">Sami</span><span class="v">~40 min · Myrtos ~1 h</span></div>
+        <div class="kv"><span class="k">Farm lunch</span><span class="v">En Kefallinia (Lakithra) ~7 min</span></div>
+        <div class="kv"><span class="k">To confirm</span><span class="v">Pool? parking? nearest beach (Avithos/Ai Helis)</span></div>
+      </div>
+      <div class="card reveal">
+        <span class="tag warn">Car · 4 days</span>
+        <h3>Hertz — Toyota C-HR</h3>
+        <p style="font-size:.9rem;color:var(--ink-soft);margin:.3rem 0 .8rem">Automatic, 5-seat. Kefalonia Airport, desk in terminal. <a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Hertz+Kefalonia+Airport" target="_blank" rel="noopener">Map</a></p>
+        <div class="kv"><span class="k">Pick-up</span><span class="v">Mon 1 June · 14:30 (EFL)</span></div>
+        <div class="kv"><span class="k">Drop-off</span><span class="v">Fri 5 June · 08:30 (EFL)</span></div>
+        <div class="kv"><span class="k">Bring</span><span class="v">Swiss licence + booking card + passport</span></div>
+        <div class="kv"><span class="k">At desk</span><span class="v">Check excess/insurance &amp; fuel policy</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ATHENS -->
+  <section id="athens">
+    <div class="sec-head reveal"><span class="num">04</span><h2>Athens — the city days</h2><span class="line"></span></div>
+    <p class="lead reveal">Three nights, all on foot from the hotel. One big ancient-sites day, framed by an easy arrival evening and a gentler bonus day.</p>
+    <div class="reveal">
+      <div class="day">
+        <div class="dlabel">Friday 29 May</div>
+        <h3>Arrive &amp; settle <span class="pill">evening</span></h3>
+        <p>Land 15:45, <b>Metro Line 3</b> to Monastiraki (~40 min, €9 pp); at the hotel ~17:00. A wander through <a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Plaka+Athens" target="_blank" rel="noopener">Plaka</a>, then the <a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Lycabettus+Funicular+Athens" target="_blank" rel="noopener">Lycabettus funicular</a> (no climbing) for the sunset (~20:40).</p>
+        <p class="meta">Dinner: Avocado or Vegan Beat →&nbsp;see Eat</p>
+      </div>
+      <div class="day">
+        <div class="dlabel">Saturday 30 May</div>
+        <h3>The big ancient-Athens day</h3>
+        <p><b>08:00</b> — <a class="lnk" href="https://hhticket.gr/" target="_blank" rel="noopener">Acropolis &amp; Parthenon</a> (pre-book the timed slot; use the North-Slope lift). Then the <a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Ancient+Agora+of+Athens" target="_blank" rel="noopener">Ancient Agora</a>, lunch, the <a class="lnk" href="https://www.theacropolismuseum.gr/en" target="_blank" rel="noopener">Acropolis Museum</a>, and the <a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Temple+of+Olympian+Zeus+Athens" target="_blank" rel="noopener">Temple of Olympian Zeus</a> at dusk.</p>
+        <p class="meta">Dinner: ★ Aleria (book ahead) →&nbsp;see Eat</p>
+      </div>
+      <div class="day">
+        <div class="dlabel">Sunday 31 May</div>
+        <h3>The bonus day — gentler</h3>
+        <p>Morning at the <a class="lnk" href="https://www.namuseum.gr/en/" target="_blank" rel="noopener">National Archaeological Museum</a> (world-class, A/C, accessible). Afternoon, your pick: the <a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Panathenaic+Stadium+Athens" target="_blank" rel="noopener">Panathenaic Stadium</a> + National Garden (flat &amp; central) <b>or</b> a <a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Temple+of+Poseidon+Cape+Sounion" target="_blank" rel="noopener">Cape Sounion</a> sunset.</p>
+        <p class="meta">Dinner: Veganaki or Cookoomela →&nbsp;see Eat</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- KEFALONIA -->
+  <section id="kefalonia">
+    <div class="sec-head reveal"><span class="num">05</span><h2>Kefalonia — the island days</h2><span class="line"></span></div>
+    <p class="lead reveal">Four nights from a Pesada base: a half-day arrival, two exploring days, and a relaxed finale. Relax + some exploring, all by car.</p>
+    <div class="reveal">
+      <div class="day">
+        <div class="dlabel">Monday 1 June</div>
+        <h3>Transfer &amp; settle <span class="pill half">half day</span></h3>
+        <p>Checkout by 11:00, fly ATH→KEF (13:25–14:25), pick up the car, ~15 min to <b>Pesada</b>. Gentle first evening at a nearby southern beach — <a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Avithos+Beach+Kefalonia" target="_blank" rel="noopener">Avithos</a> or <a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Ai+Helis+Beach+Kefalonia" target="_blank" rel="noopener">Ai Helis</a>.</p>
+      </div>
+      <div class="day">
+        <div class="dlabel">Tuesday 2 June</div>
+        <h3>The North loop — the scenic big day</h3>
+        <p>Leave ~8:30: <a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Myrtos+Beach+Kefalonia" target="_blank" rel="noopener">Myrtos</a> viewpoint &amp; beach early, then <a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Assos+Kefalonia" target="_blank" rel="noopener">Assos</a> (flat &amp; lovely — skip the castle climb) and a long lunch in <a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Fiskardo+Kefalonia" target="_blank" rel="noopener">Fiskardo</a>.</p>
+        <p class="meta">~1 h each way — the one long drive, and worth it.</p>
+      </div>
+      <div class="day">
+        <div class="dlabel">Wednesday 3 June</div>
+        <h3>Caves &amp; the east coast</h3>
+        <p>To Sami (~40 min): <a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Melissani+Cave+Kefalonia" target="_blank" rel="noopener">Melissani Cave</a> by boat (best light <b>11:30–14:00</b>), optional <a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Drogarati+Cave+Kefalonia" target="_blank" rel="noopener">Drogarati</a>, then a swim at <a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Antisamos+Beach+Kefalonia" target="_blank" rel="noopener">Antisamos</a>.</p>
+      </div>
+      <div class="day">
+        <div class="dlabel">Thursday 4 June</div>
+        <h3>Argostoli, the farm lunch &amp; relax</h3>
+        <p>Flat morning in <a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Lithostroto+Argostoli" target="_blank" rel="noopener">Argostoli</a>, lunch at <a class="lnk" href="https://www.google.com/maps/search/?api=1&query=En+Kefallinia+Lakithra+Kefalonia" target="_blank" rel="noopener">En Kefallinia</a> farm (~7 min), a <a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Makris+Gialos+Beach+Lassi+Kefalonia" target="_blank" rel="noopener">Lassi beach</a> afternoon, and turtles at dusk in the <a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Koutavos+Lagoon+Argostoli" target="_blank" rel="noopener">Koutavos lagoon</a>.</p>
+      </div>
+      <div class="day">
+        <div class="dlabel">Friday 5 June</div>
+        <h3>Home — early</h3>
+        <p>Leave Pesada ~08:00, car back by 08:30, fly EFL→ZRH 10:35–14:20 via Vienna. Pack the night before.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EAT -->
+  <section id="eat">
+    <div class="sec-head reveal"><span class="num">06</span><h2>Eat — allergy-vetted</h2><span class="line"></span></div>
+    <p class="lead reveal">Every pick below is a vegetarian/vegan kitchen used to cooking to order. <b>Always call ahead and show the Greek allergy card</b> (next section) — onion &amp; garlic are the base of most Greek dishes.</p>
+
+    <div class="subhead reveal">Athens</div>
+    <div class="foodgrid reveal">
+      <a class="eat" href="https://www.google.com/maps/search/?api=1&query=Avocado+Vegetarian+Cafe+Athens" target="_blank" rel="noopener">
+        <div class="top"><span class="name">Avocado</span><span class="where">Plaka · Fri</span></div>
+        <span class="why">100% vegetarian café, allergen-aware.</span><span class="note">⚠ Call; ask allium-free.</span></a>
+      <a class="eat" href="https://www.google.com/maps/search/?api=1&query=Vegan+Beat+Athens" target="_blank" rel="noopener">
+        <div class="top"><span class="name">Vegan Beat</span><span class="where">Plaka · Fri alt</span></div>
+        <span class="why">All-vegan street food, will substitute.</span><span class="note">⚠ Tzatziki has garlic — ask.</span></a>
+      <a class="eat" href="https://www.google.com/maps/search/?api=1&query=Aleria+Restaurant+Athens" target="_blank" rel="noopener">
+        <div class="top"><span class="name">★ Aleria</span><span class="where">Keramikos · Sat</span></div>
+        <span class="why">Vegetarian tasting menu — veg as the hero.</span><span class="note">⚠ Book ahead; flag the allergy.</span></a>
+      <a class="eat" href="https://www.google.com/maps/search/?api=1&query=Veganaki+Koukaki+Athens" target="_blank" rel="noopener">
+        <div class="top"><span class="name">Veganaki</span><span class="where">Koukaki · Sun</span></div>
+        <span class="why">All-vegan, gluten-free; Greek classics.</span><span class="note">⚠ Classics start on onion — verify.</span></a>
+      <a class="eat" href="https://www.google.com/maps/search/?api=1&query=Cookoomela+Grill+Athens" target="_blank" rel="noopener">
+        <div class="top"><span class="name">Cookoomela</span><span class="where">Exarchia · Sun alt</span></div>
+        <span class="why">All-vegan gyros — handy after the museum.</span><span class="note">⚠ Ask which sauces are allium-free.</span></a>
+      <a class="eat" href="https://www.google.com/maps/search/?api=1&query=Mama+Tierra+Athens" target="_blank" rel="noopener">
+        <div class="top"><span class="name">Mama Tierra</span><span class="where">nr Acropolis · lunch</span></div>
+        <span class="why">All-vegan, international — between sights.</span></a>
+    </div>
+
+    <div class="subhead reveal">Kefalonia <span style="font-family:Manrope;font-style:normal;font-size:.8rem;color:var(--mute);font-weight:600">— call every one the day before</span></div>
+    <div class="foodgrid reveal">
+      <a class="eat" href="https://www.google.com/maps/search/?api=1&query=En+Kefallinia+Lakithra+Kefalonia" target="_blank" rel="noopener">
+        <div class="top"><span class="name">★ En Kefallinia</span><span class="where">Lakithra · Thu lunch</span></div>
+        <span class="why">Organic farm-to-table; owners explain every dish — the best allergy conversation on the island.</span><span class="note">Lunch only, Wed–Sun · +30 2671 041190</span></a>
+      <a class="eat" href="https://www.google.com/maps/search/?api=1&query=Da+Veronica+Lassi+Kefalonia" target="_blank" rel="noopener">
+        <div class="top"><span class="name">Da Veronica</span><span class="where">Lassi (south)</span></div>
+        <span class="why">Clearly-marked vegan menu; adapts dishes.</span><span class="note">⚠ Ask which are onion/garlic-free.</span></a>
+      <a class="eat" href="https://www.google.com/maps/search/?api=1&query=Platanos+Tavern+Assos+Kefalonia" target="_blank" rel="noopener">
+        <div class="top"><span class="name">Platanos</span><span class="where">Assos (north)</span></div>
+        <span class="why">Wide veg mezze, simple baked veg — for the north day.</span><span class="note">⚠ Call ahead.</span></a>
+      <a class="eat" href="https://www.google.com/maps/search/?api=1&query=Nefeli+Assos+Kefalonia" target="_blank" rel="noopener">
+        <div class="top"><span class="name">Nefeli</span><span class="where">Assos (north)</span></div>
+        <span class="why">Veg/vegan options, harbour setting.</span><span class="note">⚠ Garlic used liberally — salads/pesto.</span></a>
+      <a class="eat" href="https://www.google.com/maps/search/?api=1&query=Apagio+Fiskardo+Kefalonia" target="_blank" rel="noopener">
+        <div class="top"><span class="name">Apagio</span><span class="where">Fiskardo (north)</span></div>
+        <span class="why">Creative veg dishes, dietary-aware staff.</span><span class="note">⚠ Mostly seafood — steer to veg; call.</span></a>
+      <div class="eat" style="background:rgba(110,125,76,.08);border-color:#cdd6b8">
+        <div class="top"><span class="name" style="font-size:1rem">Reliable fallbacks</span></div>
+        <span class="why">Greek salad <i>without onion</i>, plain grilled/baked veg, tomato pasta, fava without the onion topping.</span></div>
+    </div>
+  </section>
+
+  <!-- SEE & DO -->
+  <section id="see">
+    <div class="sec-head reveal"><span class="num">07</span><h2>See &amp; do</h2><span class="line"></span></div>
+    <div class="grid g2">
+      <div class="card reveal">
+        <span class="tag">Athens</span>
+        <h3>Sights &amp; tickets</h3>
+        <div class="kv"><span class="k"><a class="lnk" href="https://hhticket.gr/" target="_blank" rel="noopener">Acropolis</a></span><span class="v">€30 pp — pre-book 08:00 slot</span></div>
+        <div class="kv"><span class="k"><a class="lnk" href="https://www.theacropolismuseum.gr/en" target="_blank" rel="noopener">Acropolis Museum</a></span><span class="v">€20 — at the door, accessible</span></div>
+        <div class="kv"><span class="k"><a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Ancient+Agora+of+Athens" target="_blank" rel="noopener">Ancient Agora</a></span><span class="v">~€10 — walk-up</span></div>
+        <div class="kv"><span class="k"><a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Temple+of+Olympian+Zeus+Athens" target="_blank" rel="noopener">Temple of Zeus</a></span><span class="v">€8 — open late</span></div>
+        <div class="kv"><span class="k"><a class="lnk" href="https://www.namuseum.gr/en/" target="_blank" rel="noopener">Archaeological Mus.</a></span><span class="v">€12 — Sun bonus day</span></div>
+        <div class="kv"><span class="k"><a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Lycabettus+Funicular+Athens" target="_blank" rel="noopener">Lycabettus</a></span><span class="v">Funicular — sunset, no climb</span></div>
+      </div>
+      <div class="card reveal">
+        <span class="tag">Kefalonia</span>
+        <h3>Sights &amp; beaches</h3>
+        <div class="kv"><span class="k"><a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Melissani+Cave+Kefalonia" target="_blank" rel="noopener">Melissani</a></span><span class="v">€10 — boat; light 11:30–14:00</span></div>
+        <div class="kv"><span class="k"><a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Drogarati+Cave+Kefalonia" target="_blank" rel="noopener">Drogarati</a></span><span class="v">€6 — ~150 steps, optional</span></div>
+        <div class="kv"><span class="k"><a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Myrtos+Beach+Kefalonia" target="_blank" rel="noopener">Myrtos</a></span><span class="v">Free — go early; water shoes</span></div>
+        <div class="kv"><span class="k"><a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Assos+Kefalonia" target="_blank" rel="noopener">Assos</a> / <a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Fiskardo+Kefalonia" target="_blank" rel="noopener">Fiskardo</a></span><span class="v">Free — harbour villages</span></div>
+        <div class="kv"><span class="k"><a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Antisamos+Beach+Kefalonia" target="_blank" rel="noopener">Antisamos</a></span><span class="v">Free — swim; pebbles</span></div>
+        <div class="kv"><span class="k"><a class="lnk" href="https://www.google.com/maps/search/?api=1&query=Koutavos+Lagoon+Argostoli" target="_blank" rel="noopener">Koutavos</a></span><span class="v">Free — turtles at dusk</span></div>
+      </div>
+    </div>
+    <p class="lead reveal" style="margin:1.5rem 0 0;font-size:.95rem;color:var(--mute)"><b>Mobility:</b> North-Slope lift at the Acropolis; skip the Assos castle climb; Drogarati's steps are optional; water shoes for the pebble beaches. Everything else is gentle.</p>
+  </section>
+
+  <!-- ALLERGY -->
+  <section id="allergy">
+    <div class="sec-head reveal"><span class="num">08</span><h2>Janine's allergy card</h2><span class="line"></span></div>
+    <p class="lead reveal">Vegetarian (no meat/fish/seafood) <b>+ a medical allergy to the whole onion/garlic family</b>. Print a few copies; show it to every kitchen — it's more reliable than explaining.</p>
+    <div class="allergy reveal">
+      <h3>Σοβαρή αλλεργία &amp; διατροφικές ανάγκες</h3>
+      <div class="gr">
+        Είμαι <b>χορτοφάγος</b>. Δεν τρώω κρέας, πουλερικά, ψάρι ή θαλασσινά.<br><br>
+        Έχω <b>σοβαρή αλλεργία</b> σε όλη την οικογένεια των κρεμμυδιών/σκόρδων: κρεμμύδι, σκόρδο, ασκαλώνια, πράσο, φρέσκο κρεμμυδάκι, σχοινόπρασο, σκόνη κρεμμυδιού ή σκόρδου, και ζωμούς/σάλτσες που τα περιέχουν.<br><br>
+        Αυτή η αλλεργία είναι <b>ιατρική</b>, όχι προτίμηση. Παρακαλώ ετοιμάστε το φαγητό μου <b>χωρίς κανένα από αυτά</b>, με καθαρά σκεύη. Αν δεν γίνεται, ενημερώστε με. Ευχαριστώ πολύ!
+      </div>
+      <p class="en"><b>English:</b> Vegetarian (no meat/poultry/fish/seafood) + a <b>medical</b> allergy to the whole onion/garlic family (incl. powders &amp; stocks). Please cook with none of these, using clean utensils. <i>Tip: have a Greek speaker or the hotel double-check the wording.</i></p>
+    </div>
+  </section>
+
+  <!-- BUDGET -->
+  <section id="budget">
+    <div class="sec-head reveal"><span class="num">09</span><h2>Budget</h2><span class="line"></span></div>
+    <div class="budget-wrap">
+      <table class="reveal">
+        <thead><tr><th>On-the-ground (for 2)</th><th>Low</th><th>High</th></tr></thead>
+        <tbody>
+          <tr><td>Food &amp; drink</td><td>450</td><td>700</td></tr>
+          <tr><td>Sights &amp; entries</td><td>170</td><td>220</td></tr>
+          <tr><td>Fuel (Kefalonia)</td><td>60</td><td>90</td></tr>
+          <tr><td>Athens transport</td><td>40</td><td>60</td></tr>
+          <tr><td>Beach extras / sunbeds</td><td>40</td><td>90</td></tr>
+          <tr><td>Souvenirs / misc</td><td>50</td><td>150</td></tr>
+          <tr class="total"><td>Total on-the-ground</td><td>≈ 810</td><td>≈ 1,310</td></tr>
+        </tbody>
+      </table>
+      <div class="bignote reveal">
+        <div class="amt">~€1,000–1,200</div>
+        <p>Realistic on-the-ground spend for the two of you, in EUR.</p>
+        <p style="margin-top:1rem;border-top:1px solid rgba(255,255,255,.15);padding-top:1rem"><b>Pre-paid:</b> Athens hotel <b>€680.85</b> (non-refundable). Flights, Airbnb &amp; car also booked — add the actuals as known.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PREP -->
+  <section id="prep">
+    <div class="sec-head reveal"><span class="num">10</span><h2>Before we go</h2><span class="line"></span></div>
+    <div class="checks reveal">
+      <div class="chk"><span class="box"></span><div><b>Give Hertz the ATH→KEF flight number</b> — so they hold the 14:30 car against the 14:25 landing.</div></div>
+      <div class="chk"><span class="box"></span><div><b>Pre-book Acropolis</b> 08:00 slot for Sat 30 — <a class="lnk" href="https://hhticket.gr/" target="_blank" rel="noopener">hhticket.gr</a>.</div></div>
+      <div class="chk"><span class="box"></span><div><b>Reserve Aleria</b> (Sat 30) &amp; <b>En Kefallinia</b> (Thu 4) — flag the allergy when booking.</div></div>
+      <div class="chk"><span class="box"></span><div><b>Print the Greek allergy card</b> — a few copies for wallets &amp; phone.</div></div>
+      <div class="chk"><span class="box"></span><div><b>Decide Sunday afternoon</b> — central relax vs Cape Sounion sunset.</div></div>
+      <div class="chk"><span class="box"></span><div><b>Pack water shoes</b> (pebble beaches) &amp; grippy shoes (Acropolis marble).</div></div>
+      <div class="chk"><span class="box"></span><div><b>Bring</b> Swiss driving licence, the card used to book, passports.</div></div>
+      <div class="chk"><span class="box"></span><div><b>Confirm</b> the Airbnb's pool/parking/nearest beach with the host.</div></div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="meander"></div>
+  <div class="fb">Καλό ταξίδι — safe travels</div>
+  <div>Athens &amp; Kefalonia · 29 May – 5 June 2026 · Alex + Janine</div>
+  <small>Restaurant &amp; sight links open Google Maps / official ticketing. Allergy wording — verify with a native speaker before travel.</small>
+</footer>
+
+<script>
+  // staggered hero load
+  document.querySelectorAll('.hero .reveal').forEach((el,i)=>{
+    el.style.transitionDelay=(i*0.09)+'s';
+    requestAnimationFrame(()=>requestAnimationFrame(()=>el.classList.add('in')));
+  });
+  // scroll reveal
+  const io=new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  },{threshold:0.12, rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('main .reveal, footer .reveal').forEach(el=>io.observe(el));
+  // active nav highlight
+  const links=[...document.querySelectorAll('.nav-links a')];
+  const map={};links.forEach(l=>map[l.getAttribute('href').slice(1)]=l);
+  const so=new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ links.forEach(l=>l.style.background=''); links.forEach(l=>l.style.color='');
+      const a=map[e.target.id]; if(a){a.style.background='var(--sea)';a.style.color='#fff';} } });
+  },{threshold:0.5});
+  document.querySelectorAll('main section').forEach(s=>so.observe(s));
+</script>
+</body>
+</html>
